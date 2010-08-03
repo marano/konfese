@@ -1,7 +1,7 @@
 <div id='new_secret'>
   <%= form_for Post.new do |f| %>
     <p><%= f.label :body, 'A secret' %></p>
-    <p><%= f.text_area :body %></p>
+    <p><%= f.text_area :body, :cols => 40, :rows => 3 %></p>
     <p><%= f.submit 'Post' %></p>
   <% end %>
 </div>
