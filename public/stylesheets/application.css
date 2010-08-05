@@ -1,3 +1,19 @@
+#title {
+  font-family: Verdana, Helvetica, Arial;
+  font-size: 90px;
+  padding: 0;
+  margin: 0;
+  color: #000;
+  text-decoration: none;
+  border:none;
+  letter-spacing: 0px;
+}
+
+#subtitle {
+  font-size: 40px;
+  letter-spacing: 0px;
+}
+
 body {
   background-color: #4B7399;
   font-family: Verdana, Helvetica, Arial;
