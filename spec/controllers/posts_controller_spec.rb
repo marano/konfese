@@ -1,3 +1,5 @@
+require 'spec_helper'
+
 describe PostsController do
   
   context 'creating a new post' do
