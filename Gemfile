@@ -37,4 +37,5 @@ group :test do
   gem "shoulda"
   gem "capybara", ">= 0.3.9"
   gem "factory_girl_rails"
+  gem 'forgery'
 end
