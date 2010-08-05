@@ -1,4 +1,4 @@
-require "test_notifier/autotest"
+require "test_notifier/runner/autotest"
 
 Autotest.add_hook :initialize do |autotest|
   %w{.git .svn .hg .DS_Store ._* vendor tmp log doc}.each do |exception|
