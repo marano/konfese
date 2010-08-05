@@ -28,7 +28,7 @@ gem 'sqlite3-ruby', :require => 'sqlite3'
 #   gem 'webrat'
 # end
 
-gem 'autotest-rails'
+gem 'autotest'
 gem 'test_notifier'
 gem "nifty-generators"
 
